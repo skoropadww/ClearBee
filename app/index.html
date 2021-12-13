@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ClearBee</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <div class="popupMess">
+    <div class="popupMess__box">
+      <button class="close popupMess-close" type="button"></button>
+      <div class="popupMess__inner">
+        <h2 class="popupMess__title title">Заказ обратного звонка</h2>
+        <p class="popupMess__desc">Каждому новому клиенту при заказе обратного звонка в подарок скидка 10% на любой
+          спектр услуг</p>
+        <form class="popupMess__form" action="https://fom.in.ua/echo" method="GET">
+          <input class="popupMess__form-input" type="text" placeholder="Имя" name="call-back-name">
+          <input class="popupMess__form-input" type="tel" placeholder="Телефон" name="call-back-tel">
+          <button class="btn  popupMess__form-btn" type="submit">Заказать звонок</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="header__wrapper">
+      <div class="header-container">
+        <div class="header__top">
+          <a class="logo" href="#">
+            <img class="logo__img" src="images/logo.svg" alt="Логотип сайта CleanBee">
+          </a>
+          <div class="contact">
+            <a class="contact__link" href="mailto:Cleenbee.ukr@gmail">Наш E-mail: Cleenbee.ukr@gmail</a>
+            <a class="contact__link" href="tel:+380688670707">Наш телефон: +380 (68) 867 07 07</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-container">
+      <nav class="menu">
+        <li class="menu__item">
+          <a class="menu__link" href="#">О нас</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#">Химчистка</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#">Дезинфекция</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#">Услуги</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#">Акции</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#">Фото</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#">Калькулятор</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#">Контакты</a>
+        </li>
+      </nav>
+
+    </div>
+
+  </header>
+  <main class="main">
+    <!-- Сделать плавное пявление и темный фон -->
+
+    <section class="hero">
+      <div class="container">
+        <div class="hero__slider">
+          <div class="slider">
+            <div class="slider__item">
+              <div class="slider-desc">
+                <h1 class="slider-desc__title title">
+                  Противовирусная химическая и физическая дезинфекция
+                </h1>
+                <p class="slider-desc__text">
+                  Заказывай противовирусную, химическую дезинфекцию по супер выгодной цене!
+                  Чем больше квадратура, тем меньше цена.
+                </p>
+                <button class="btn btn-popup" type="button">Заказать звонок</button>
+              </div>
+              <img class="slider__img" src="images/content/slider/slide-1.png" alt="Первый слайд">
+            </div>
+            <div class="slider__item">
+              <div class="slider-desc">
+                <h1 class="slider-desc__title title">
+                  Генеральная уборка, делаем подарок каждому новому клиенту
+                </h1>
+                <p class="slider-desc__text">
+                  Заказывай гениральную уборку, получи противовирусную дезинфекцию и химчистку одной единицы мягкой
+                  мебели в подарок
+                </p>
+                <button class="btn btn-popup" type="button">Заказать звонок</button>
+              </div>
+              <img class="slider__img" src="images/content/slider/slide-2.png" alt="Первый слайд">
+            </div>
+            <div class="slider__item">
+              <div class="slider-desc">
+                <h1 class="slider-desc__title title">
+                  Генеральная уборка, делаем подарок каждому новому клиенту
+                </h1>
+                <p class="slider-desc__text">
+                  Заказывай гениральную уборку, получи противовирусную дезинфекцию и химчистку одной единицы мягкой
+                  мебели в подарок
+                </p>
+                <button class="btn btn-popup" type="button">Заказать звонок</button>
+              </div>
+              <img class="slider__img" src="images/content/slider/slide-1.png" alt="Первый слайд">
+            </div>
+          </div>
+          <div class="slider-number">
+            <span class="slider-number__numb slider-number__this">01</span>
+            <span class="slider-number__line"></span>
+            <span class="slider-number__numb slider-number__all">03</span>
+          </div>
+        </div>
+        <ul class="hero__list">
+          <li class="hero__item">Работаем 24/7</li>
+          <li class="hero__item">Индивидуальный подход</li>
+          <li class="hero__item">Доступные цены</li>
+          <li class="hero__item">Скидки новым клиентам</li>
+        </ul>
+      </div>
+    </section>
+    <section class="about">
+      <div class="container">
+        <div class="about__inner">
+          <h3 class="about__subtitle subtitle">Как это работает?</h3>
+          <h2 class="about__title title title--content">Нет времени на уборку? Мы готовы помочь</h2>
+          <ul class="about__list">
+            <li class="about__item">
+              <img class="about__item-img" src="images/icons/hand-graving-icon.svg" alt="Телефон в руке иконка">
+              <p>Закажи обратный звонок</p>
+            </li>
+            <li class="about__item">
+              <img class="about__item-img" src="images/icons/support-icon.svg" alt="Телефон в руке иконка">
+              <p>Получи консультацию от профессионалов</p>
+            </li>
+            <li class="about__item">
+              <img class="about__item-img" src="images/icons/schedule-icon.svg" alt="Телефон в руке иконка">
+              <p>Бронируй удобную дату и время</p>
+            </li>
+            <li class="about__item">
+              <img class="about__item-img" src="images/icons/meditation-icon.svg" alt="Телефон в руке иконка">
+              <p>Наслаждайся чистотой</p>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </section>
+    <section class="service">
+      <div class="container">
+        <div class="service__inner">
+          <h3 class="service__subtitle subtitle">Все виды услуг</h3>
+          <h2 class="service__title title title--content">Мы готовы взяться за работу любой сложности, профессиональное
+            оборудование, квалифицированный персонал,
+            сертифицированная химия.</h2>
+          <div class="service-carusel">
+            <div class="service-carusel__item-box">
+              <div class="service-carusel__item">
+                <div class="service-carusel__item-wrapper">
+                  <img class="service-carusel__img" src="images/content/services/fox-icon.svg" alt="Картинка животного">
+                  <div class="service-carusel__text">
+                    <p class="service-carusel__subtitle">Уборка после животных</p>
+                    <p class="service-carusel__desc">Заказывай услугу уборки после животных. Наша компания бережно
+                      относиться к каждому
+                      своему клиенту</p>
+                    <button class="carusel__btn" type="button">Подробнее</button>
+                  </div>
+                </div>
+              </div>
+              <div class="service-carusel__item">
+                <div class="service-carusel__item-wrapper">
+                  <img class="service-carusel__img" src="images/content/services/cleaning-icon.svg"
+                    alt="Картинка уборки">
+                  <div class="service-carusel__text">
+                    <p class="service-carusel__subtitle">Уборка после ремонта</p>
+                    <p class="service-carusel__desc">Генеральная уборка квартиры после ремонта на профессиональном
+                      уровне с бережным отношением поверхностям
+                    </p>
+                    <button class="carusel__btn" type="button">Подробнее</button>
+                  </div>
+                </div>
+              </div>
+              <div class="service-carusel__item">
+                <div class="service-carusel__item-wrapper">
+                  <img class="service-carusel__img" src="images/content/services/sofa-icon.svg" alt="Картинка лиса">
+                  <div class="service-carusel__text">
+                    <p class="service-carusel__subtitle">Чистка мебели</p>
+                    <p class="service-carusel__desc">Генеральная уборка квартиры после ремонта на профессиональном
+                      уровне
+                      с бережным отношением поверхностям
+                    </p>
+                    <button class="carusel__btn" type="button">Подробнее</button>
+                  </div>
+                </div>
+              </div>
+              <div class="service-carusel__item">
+                <div class="service-carusel__item-wrapper">
+                  <img class="service-carusel__img" src="images/content/services/carpet-icon.svg" alt="Картинка лиса">
+                  <div class="service-carusel__text">
+                    <p class="service-carusel__subtitle">Химчистка ковров</p>
+                    <p class="service-carusel__desc">Генеральная уборка квартиры после ремонта на профессиональном
+                      уровне
+                      с бережным отношением поверхностям
+
+                    </p>
+                    <button class="carusel__btn" type="button">Подробнее</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="service-carusel__item-box">
+              <div class="service-carusel__item">
+                <div class="service-carusel__item-wrapper">
+                  <img class="service-carusel__img" src="images/content/services/fox-icon.svg" alt="Картинка животного">
+                  <div class="service-carusel__text">
+                    <p class="service-carusel__subtitle">Уборка после животных</p>
+                    <p class="service-carusel__desc">Заказывай услугу уборки после животных. Наша компания бережно
+                      относиться к каждому
+                      своему клиенту</p>
+                    <button class="carusel__btn" type="button">Подробнее</button>
+                  </div>
+                </div>
+              </div>
+              <div class="service-carusel__item">
+                <div class="service-carusel__item-wrapper">
+                  <img class="service-carusel__img" src="images/content/services/cleaning-icon.svg"
+                    alt="Картинка уборки">
+                  <div class="service-carusel__text">
+                    <p class="service-carusel__subtitle">Уборка после ремонта</p>
+                    <p class="service-carusel__desc">Генеральная уборка квартиры после ремонта на профессиональном
+                      уровне с бережным отношением поверхностям
+                    </p>
+                    <button class="carusel__btn" type="button">Подробнее</button>
+                  </div>
+                </div>
+              </div>
+              <div class="service-carusel__item">
+                <div class="service-carusel__item-wrapper">
+                  <img class="service-carusel__img" src="images/content/services/sofa-icon.svg" alt="Картинка лиса">
+                  <div class="service-carusel__text">
+                    <p class="service-carusel__subtitle">Чистка мебели</p>
+                    <p class="service-carusel__desc">Генеральная уборка квартиры после ремонта на профессиональном
+                      уровне
+                      с бережным отношением поверхностям
+                    </p>
+                    <button class="carusel__btn" type="button">Подробнее</button>
+                  </div>
+                </div>
+              </div>
+              <div class="service-carusel__item">
+                <div class="service-carusel__item-wrapper">
+                  <img class="service-carusel__img" src="images/content/services/carpet-icon.svg" alt="Картинка лиса">
+                  <div class="service-carusel__text">
+                    <p class="service-carusel__subtitle">Химчистка ковров</p>
+                    <p class="service-carusel__desc">Генеральная уборка квартиры после ремонта на профессиональном
+                      уровне
+                      с бережным отношением поверхностям
+
+                    </p>
+                    <button class="carusel__btn" type="button">Подробнее</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="service-carusel__item-box">
+              <div class="service-carusel__item">
+                <div class="service-carusel__item-wrapper">
+                  <img class="service-carusel__img" src="images/content/services/fox-icon.svg" alt="Картинка животного">
+                  <div class="service-carusel__text">
+                    <p class="service-carusel__subtitle">Уборка после животных</p>
+                    <p class="service-carusel__desc">Заказывай услугу уборки после животных. Наша компания бережно
+                      относиться к каждому
+                      своему клиенту</p>
+                    <button class="carusel__btn" type="button">Подробнее</button>
+                  </div>
+                </div>
+              </div>
+              <div class="service-carusel__item">
+                <div class="service-carusel__item-wrapper">
+                  <img class="service-carusel__img" src="images/content/services/cleaning-icon.svg"
+                    alt="Картинка уборки">
+                  <div class="service-carusel__text">
+                    <p class="service-carusel__subtitle">Уборка после ремонта</p>
+                    <p class="service-carusel__desc">Генеральная уборка квартиры после ремонта на профессиональном
+                      уровне с бережным отношением поверхностям
+                    </p>
+                    <button class="carusel__btn" type="button">Подробнее</button>
+                  </div>
+                </div>
+              </div>
+              <div class="service-carusel__item">
+                <div class="service-carusel__item-wrapper">
+                  <img class="service-carusel__img" src="images/content/services/sofa-icon.svg" alt="Картинка лиса">
+                  <div class="service-carusel__text">
+                    <p class="service-carusel__subtitle">Чистка мебели</p>
+                    <p class="service-carusel__desc">Генеральная уборка квартиры после ремонта на профессиональном
+                      уровне
+                      с бережным отношением поверхностям
+                    </p>
+                    <button class="carusel__btn" type="button">Подробнее</button>
+                  </div>
+                </div>
+              </div>
+              <div class="service-carusel__item">
+                <div class="service-carusel__item-wrapper">
+                  <img class="service-carusel__img" src="images/content/services/carpet-icon.svg" alt="Картинка лиса">
+                  <div class="service-carusel__text">
+                    <p class="service-carusel__subtitle">Химчистка ковров</p>
+                    <p class="service-carusel__desc">Генеральная уборка квартиры после ремонта на профессиональном
+                      уровне
+                      с бережным отношением поверхностям
+
+                    </p>
+                    <button class="carusel__btn" type="button">Подробнее</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="offer">
+      <div class="container">
+        <div class="offer__inner">
+          <h3 class="service__subtitle subtitle">Уборка Яхт и Катеров</h3>
+          <h2 class="service__title title title--content">Мы предлагаем уникальное предложение по уборке.
+            Только наша компания”Сlean bee” делает уборку яхт и катеров, а также ОСМД</h2>
+          <div class="offer__info">
+            <img class="offer__info-img" src="images/content/offer-img.jpg" alt="Люди отмывают яхту">
+            <div class="offer__info-desc">
+              <p>Уборка яхт — ряд мероприятий, направленных на наведение порядка во внутренних помещениях и очистку
+                наружных поверхностей
+                судна. Наша компания, давно работающая на клининговом рынке Одессы, предлагает данную услугу по
+                доступной цене.
+                Специфика объекта требует не только специальных навыков в уходе за ним, но и наличия специфических
+                моющих средств и
+                оборудования. В частности, важно выполнять требования по уходу за дорогими материалами: металлом,
+                деревом, интерьерными
+                тканями, стеклянными и зеркальными поверхностями. Грамотное обслуживание влияет не только на внешний вид
+                судна, но и
+                заметно продлевает срок его службы.
+              </p>
+              <p>Что нужно знать об уборке Яхт? Поскольку яхты и катера непрерывно подвергаются воздействию солнца,
+                ветра, высокой
+                влажности, то требуют особо тщательного ухода. Например, генеральную уборку следует проводить минимум
+                два раза в год: в
+                начале сезона. Мойка судна необходима после длительного простоя. Следует избавиться от пыли, помыть
+                окна, сделать
+                химчистку мягкой мебели и ковров, отполировать хромированные и деревянные элементы интерьера; в конце
+                сезона. В процессе
+                эксплуатации судно обязательно засоряется, поэтому перед отправкой на зимнее хранение рекомендуется
+                выполнить мойку
+                внутренних и наружных поверхностей, чтобы удалить все загрязнения. Регулярный уход осуществляется в
+                зависимости от
+                степени использования яхты. Не лишним будет наведение порядка до и после проведения мероприятий.
+              </p>
+              <button class="carusel__btn" type="button">Подробнее</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section class="calculator">
+      <div class="container">
+        <div class="calculator__inner">
+          <h3 class="calculator__subtitle subtitle">Узнай стоимость своей уборки</h3>
+          <h2 class="calculator__title title title--content">Хочешь узнать стоимость уборки своего помещения? Просто
+            заполни форму и наш оператор свяжеться с тобой и определит
+            стоимость твоей уборки.</h2>
+          <form class="calculator__form form" action="https://fom.in.ua/echo" method="GET">
+            <div class="form__element">
+              <input class="form__input" name="name" type="text" placeholder="Имя">
+              <select class="form__select select-style" name="area-city" id="area-city">
+                <option value="area">Район города</option>
+                <option value="kievskii">Район Киевский</option>
+                <option value="malinovskii">Район Малиновский</option>
+                <option value="paskot">Район Поселок Котовского</option>
+                <option value="moldovanka">Район Молдованка</option>
+              </select>
+              <select class="form__select select-style" name="type-clean" id="type-clean">
+                <option value="clean">Тип уборки</option>
+                <option value="daily-clean">Ежедневная</option>
+                <option value="general-clean">Генеральная</option>
+                <option value="construction-clean">Послестроительная</option>
+                <option value="animal-clean">После животных</option>
+              </select>
+            </div>
+            <div class="form__element">
+              <input class="form__input" type="text" name="room-count" placeholder="Количество комнат">
+              <input class="form__input" type="text" name="square" placeholder="Площадь">
+              <select class="form__select select-style" name="type-of-premises" id="type-of-premises">
+                <option value="premises">Тип помещения</option>
+                <option value="trade">Торговое</option>
+                <option value="production">Производственное</option>
+                <option value="office">Офисное</option>
+                <option value="apartment">Жилое помещение</option>
+              </select>
+            </div>
+            <div class="form__element form__element--mod">
+              <input class="form__input" type="tel" name="phone" placeholder="Телефон">
+              <div class="form__checkbox">
+                <span class="form__name-option">Дополнительные опции</span>
+                <div class="form-checkbox__group">
+                  <label class="form-checkbox__item">
+                    <div class="form-checkbox__wrapper">
+                      <input class="form-checkbox__input sr-only" type="checkbox" name="option" value="Washing windows"
+                        checked>
+                      <span class=" form-checkbox__checked"></span>
+                    </div>
+                    <span class="form-checkbox__text">Мойка окон</span>
+                  </label>
+                  <label class="form-checkbox__item">
+                    <div class="form-checkbox__wrapper">
+                      <input class="form-checkbox__input sr-only" type="checkbox" name="option"
+                        value="Dry cleaning of furniture">
+                      <span class=" form-checkbox__checked"></span>
+                    </div>
+                    <span class="form-checkbox__text">Химчистка мебели</span>
+                  </label>
+                  <label class="form-checkbox__item">
+                    <div class="form-checkbox__wrapper">
+                      <input class="form-checkbox__input sr-only" type="checkbox" name="option" value="Disinfection">
+                      <span class=" form-checkbox__checked"></span>
+                    </div>
+                    <span class="form-checkbox__text">Дезинфекция</span>
+                  </label>
+                  <label class="form-checkbox__item">
+                    <div class="form-checkbox__wrapper">
+                      <input class="form-checkbox__input sr-only" type="checkbox" name="option" value="Dedusting">
+                      <span class=" form-checkbox__checked"></span>
+                    </div>
+                    <span class="form-checkbox__text">Обеспыливание</span>
+                  </label>
+                </div>
+
+              </div>
+            </div>
+            <textarea class="form__textarea" name="message" id="message"
+              placeholder="Напишите дополнительные пожелания"></textarea>
+            <button class="btn btn--send" type="submit">Отправить</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+
+  </footer>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
